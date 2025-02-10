@@ -36,7 +36,7 @@ ob.speak()#function speak in dog overrides function speak in animal
 ob.show()
     
 #=========MULTILEVEL INHERITANCE by inheriting class Dog===========
-#=========hybird inheritance as single and multilevel inheritance are being performed simultaneously
+#=========hybird inheritance as multiple and multilevel inheritance are being performed simultaneously
 class puppy(Dog,Mammal):
     def __init__(self,name,breed):
         super().__init__(name,breed)
